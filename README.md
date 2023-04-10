@@ -1,6 +1,8 @@
 # 4.11
-please download the necessary libraries
+please download the necessary libraries:
+
   pip install opencv-python-headless 
+  
   pip install pytesseract Pillow
 
 What I tested is the license plate number of the vehicle from a surveillance video. I will record the total time that the corresponding license plate vehicle is within the monitoring range. If the total length of the road under monitoring is known, the speed of the vehicle can be calculated from this, and then the vehicle can be judged whether it is over speeding. I used three different methods for detection. 

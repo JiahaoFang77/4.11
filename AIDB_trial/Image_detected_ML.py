@@ -52,7 +52,7 @@ def process_images_in_folder(input_folder, output_folder, model):
 
 if __name__ == "__main__":
     input_folder = "images"    # Replace with the path to your folder containing the input images
-    output_folder = "images_preprocessed"  # Replace with the path to the folder where you want to save the filtered images
+    output_folder = "images_detected"  # Replace with the path to the folder where you want to save the filtered images
 
     model = load_model()
     process_images_in_folder(input_folder, output_folder, model)
